@@ -1,9 +1,4 @@
 class Solution:
-    def printNumber(self, n):
+    def printNumber(self):
+        n = int(input())
         print(n)
-
-
-n = int(input())
-
-obj = Solution()
-obj.printNumber(n)
